@@ -134,10 +134,10 @@ task("generateClashBindSources") {
             resolve("go.mod").writeText(generateGolangModule())
         }
 
-        "go mod vendor".exec(pwd = bind, env = environment)
+//        "go mod vendor".exec(pwd = bind, env = environment)
 
         buildDir.resolve(Constants.GOLANG_BIND).apply {
-            resolve("vendor").renameTo(resolve("src"))
+//            resolve("vendor").renameTo(resolve("src"))
             resolve("go.mod").delete()
             resolve("main.go").delete()
             resolve("go.sum").delete()
