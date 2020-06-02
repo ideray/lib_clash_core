@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/fuxin/Desktop/clash/lib_clash_core/core/build/intermediates/res/merged/release/drawable/notification_bg.xml",
+        "source": "/Users/fuxin/.gradle/caches/transforms-2/files-2.1/010e2f6d26349280fbe9569637882a09/core-1.2.0/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Users/fuxin/Desktop/clash/lib_clash_core/core/build/intermediates/res/merged/release/drawable/notification_icon_background.xml",
+        "source": "/Users/fuxin/.gradle/caches/transforms-2/files-2.1/010e2f6d26349280fbe9569637882a09/core-1.2.0/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/Users/fuxin/Desktop/clash/lib_clash_core/core/build/intermediates/res/merged/release/drawable/notification_bg_low.xml",
+        "source": "/Users/fuxin/.gradle/caches/transforms-2/files-2.1/010e2f6d26349280fbe9569637882a09/core-1.2.0/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Users/fuxin/Desktop/clash/lib_clash_core/core/build/intermediates/res/merged/release/drawable/notification_tile_bg.xml",
+        "source": "/Users/fuxin/.gradle/caches/transforms-2/files-2.1/010e2f6d26349280fbe9569637882a09/core-1.2.0/res/drawable/notification_tile_bg.xml"
+    }
+]

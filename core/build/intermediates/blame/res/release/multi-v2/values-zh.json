@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/fuxin/Desktop/clash/lib_clash_core/core/build/intermediates/res/merged/release/values-zh/values-zh.xml",
+            "map": [
+                {
+                    "source": "/Users/fuxin/.gradle/caches/transforms-2/files-2.1/0d5f493ab100cb82c311322fc3934212/jetified-lib_clash_common-1.0.0/res/values-zh/values-zh.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,128",
+                        "endColumns": "72,64",
+                        "endOffsets": "123,188"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/fuxin/Desktop/clash/lib_clash_core/core/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-zh/values-zh.xml",
+            "map": [
+                {
+                    "source": "/Users/fuxin/.gradle/caches/transforms-2/files-2.1/0d5f493ab100cb82c311322fc3934212/jetified-lib_clash_common-1.0.0/res/values-zh/values-zh.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,128",
+                        "endColumns": "72,64",
+                        "endOffsets": "123,188"
+                    }
+                }
+            ]
+        }
+    ]
+}

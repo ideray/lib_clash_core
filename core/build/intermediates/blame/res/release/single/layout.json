@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/fuxin/Desktop/clash/lib_clash_core/core/build/intermediates/res/merged/release/layout/custom_dialog.xml",
+        "source": "/Users/fuxin/.gradle/caches/transforms-2/files-2.1/010e2f6d26349280fbe9569637882a09/core-1.2.0/res/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "/Users/fuxin/Desktop/clash/lib_clash_core/core/build/intermediates/res/merged/release/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/fuxin/.gradle/caches/transforms-2/files-2.1/010e2f6d26349280fbe9569637882a09/core-1.2.0/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/fuxin/Desktop/clash/lib_clash_core/core/build/intermediates/res/merged/release/layout/notification_template_part_time.xml",
+        "source": "/Users/fuxin/.gradle/caches/transforms-2/files-2.1/010e2f6d26349280fbe9569637882a09/core-1.2.0/res/layout/notification_template_part_time.xml"
+    }
+]

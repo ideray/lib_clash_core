@@ -1,0 +1,104 @@
+# github.com/Dreamacro/clash v0.0.0 => F:\StudioProjects\ClashForAndroid\core\src\main\golang\clash
+github.com/Dreamacro/clash/adapters/inbound
+github.com/Dreamacro/clash/adapters/outbound
+github.com/Dreamacro/clash/adapters/outboundgroup
+github.com/Dreamacro/clash/adapters/provider
+github.com/Dreamacro/clash/common/cache
+github.com/Dreamacro/clash/common/murmur3
+github.com/Dreamacro/clash/common/observable
+github.com/Dreamacro/clash/common/picker
+github.com/Dreamacro/clash/common/pool
+github.com/Dreamacro/clash/common/queue
+github.com/Dreamacro/clash/common/singledo
+github.com/Dreamacro/clash/common/sockopt
+github.com/Dreamacro/clash/common/structure
+github.com/Dreamacro/clash/component/auth
+github.com/Dreamacro/clash/component/dialer
+github.com/Dreamacro/clash/component/domain-trie
+github.com/Dreamacro/clash/component/fakeip
+github.com/Dreamacro/clash/component/mmdb
+github.com/Dreamacro/clash/component/nat
+github.com/Dreamacro/clash/component/resolver
+github.com/Dreamacro/clash/component/simple-obfs
+github.com/Dreamacro/clash/component/snell
+github.com/Dreamacro/clash/component/socks5
+github.com/Dreamacro/clash/component/trojan
+github.com/Dreamacro/clash/component/v2ray-plugin
+github.com/Dreamacro/clash/component/vmess
+github.com/Dreamacro/clash/config
+github.com/Dreamacro/clash/constant
+github.com/Dreamacro/clash/dns
+github.com/Dreamacro/clash/hub/executor
+github.com/Dreamacro/clash/log
+github.com/Dreamacro/clash/proxy
+github.com/Dreamacro/clash/proxy/auth
+github.com/Dreamacro/clash/proxy/http
+github.com/Dreamacro/clash/proxy/redir
+github.com/Dreamacro/clash/proxy/socks
+github.com/Dreamacro/clash/rules
+github.com/Dreamacro/clash/tunnel
+# github.com/Dreamacro/go-shadowsocks2 v0.1.5
+github.com/Dreamacro/go-shadowsocks2/core
+github.com/Dreamacro/go-shadowsocks2/shadowaead
+github.com/Dreamacro/go-shadowsocks2/shadowstream
+# github.com/eapache/queue v1.1.0
+github.com/eapache/queue
+# github.com/gofrs/uuid v3.2.0+incompatible
+github.com/gofrs/uuid
+# github.com/gorilla/websocket v1.4.2
+github.com/gorilla/websocket
+# github.com/konsorten/go-windows-terminal-sequences v1.0.1
+github.com/konsorten/go-windows-terminal-sequences
+# github.com/kr328/cfa v0.0.0 => F:\StudioProjects\ClashForAndroid\core\src\main\golang
+## explicit
+github.com/kr328/cfa/bridge
+github.com/kr328/cfa/config
+github.com/kr328/cfa/tun
+github.com/kr328/cfa/utils
+# github.com/kr328/tun2socket v0.0.0-20200423032118-6f5116368120
+github.com/kr328/tun2socket
+github.com/kr328/tun2socket/binding
+github.com/kr328/tun2socket/coder
+github.com/kr328/tun2socket/log
+github.com/kr328/tun2socket/redirect
+github.com/kr328/tun2socket/tcpip/buf
+github.com/kr328/tun2socket/tcpip/fragment
+github.com/kr328/tun2socket/tcpip/packet
+github.com/kr328/tun2socket/tcpip/sum
+# github.com/miekg/dns v1.1.29
+github.com/miekg/dns
+# github.com/oschwald/geoip2-golang v1.4.0
+github.com/oschwald/geoip2-golang
+# github.com/oschwald/maxminddb-golang v1.6.0
+github.com/oschwald/maxminddb-golang
+# github.com/sirupsen/logrus v1.4.2
+github.com/sirupsen/logrus
+# golang.org/x/crypto v0.0.0-20200320181102-891825fb96df
+golang.org/x/crypto/argon2
+golang.org/x/crypto/blake2b
+golang.org/x/crypto/chacha20
+golang.org/x/crypto/chacha20poly1305
+golang.org/x/crypto/ed25519
+golang.org/x/crypto/ed25519/internal/edwards25519
+golang.org/x/crypto/hkdf
+golang.org/x/crypto/internal/subtle
+golang.org/x/crypto/poly1305
+# golang.org/x/net v0.0.0-20200320220750-118fecf932d8
+golang.org/x/net/bpf
+golang.org/x/net/internal/iana
+golang.org/x/net/internal/socket
+golang.org/x/net/ipv4
+golang.org/x/net/ipv6
+golang.org/x/net/publicsuffix
+# golang.org/x/sync v0.0.0-20200317015054-43a5402ce75a
+golang.org/x/sync/singleflight
+# golang.org/x/sys v0.0.0-20191224085550-c709ea063b76
+golang.org/x/sys/cpu
+golang.org/x/sys/unix
+golang.org/x/sys/windows
+# gopkg.in/eapache/channels.v1 v1.1.0
+gopkg.in/eapache/channels.v1
+# gopkg.in/yaml.v2 v2.2.8
+gopkg.in/yaml.v2
+# github.com/kr328/cfa => F:\StudioProjects\ClashForAndroid\core\src\main\golang
+# github.com/Dreamacro/clash => F:\StudioProjects\ClashForAndroid\core\src\main\golang\clash
