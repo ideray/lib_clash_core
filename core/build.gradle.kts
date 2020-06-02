@@ -5,7 +5,9 @@ plugins {
     id("kotlin-android")
     id("kotlin-android-extensions")
     id("kotlinx-serialization")
+    id("com.github.dcendents.android-maven")
 }
+group = "com.github.ideray"
 
 val rootExtra = rootProject.extra
 
