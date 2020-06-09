@@ -1,0 +1,83 @@
+
+apply plugin: "com.android.library"
+apply plugin: "kotlin-android"
+apply plugin: "kotlin-android-extensions"
+apply plugin: "kotlinx-serialization"
+
+apply from: "clash.gradle.kts"
+
+android {
+    compileSdkVersion(29)
+    buildToolsVersion("29.0.3")
+
+    defaultConfig {
+        minSdkVersion(24)
+        targetSdkVersion(29)
+
+        versionCode = 10211
+        versionName = "1.2.11"
+
+        consumerProguardFiles("consumer-rules.pro")
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+//    sourceSets {
+//        maybeCreate("main") {
+//            assets.srcDir(clashCoreOutput.resolve("assets"))
+//            jniLibs.srcDir(clashCoreOutput.resolve("jniLibs"))
+//            java.srcDir(clashCoreOutput.resolve("classes"))
+//        }
+//    }
+    sourceSets.main{
+//        def clashCoreOutput = buildDir.resolve("extraSources")
+//        assets.srcDirs = buildDir.resolve("extraSources").resolve("assets")
+//        jniLibs.srcDirs = buildDir.resolve("extraSources").resolve("jniLibs")
+//        java.srcDirs = buildDir.resolve("extraSources").resolve("classes")
+        assets.srcDirs = ['build/extraSources/assets']
+        jniLibs.srcDirs = ['build/extraSources/jniLibs']
+        java.srcDirs = ['build/extraSources/classes']
+    }
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+
+//    val properties = Properties().apply {
+//        signingFile.inputStream().use {
+//            load(it)
+//        }
+//    }
+}
+
+dependencies {
+    implementation("com.github.ideray:lib_clash_common:1.0.0")
+
+    implementation("androidx.core:core-ktx:$gAndroidKtxVersion")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:$gKotlinVersion")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:$gKotlinCoroutineVersion")
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-runtime:$gKotlinSerializationVersion")
+}
+
+apply plugin: 'maven'
+uploadArchives {
+    repositories.mavenDeployer {
+        // 本地仓库路径D:\WorkSpace
+        repository(url: uri('../repository'))
+        // 唯一标识
+        pom.groupId = "com.my.core"
+        // 项目名称
+        pom.artifactId = "core"
+        // 版本号
+        pom.version = "1.0.0"
+    }
+}

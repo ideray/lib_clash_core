@@ -1,5 +1,9 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 
+//plugins {
+//    id("com.github.johnrengelman.shadow") version "5.2.0"
+//}
+
 buildscript {
     val kotlin_version by extra("1.3.72")
     val kotlinVersion = "1.3.72"
@@ -35,6 +39,7 @@ buildscript {
         classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion")
         classpath("org.jetbrains.kotlin:kotlin-serialization:$kotlinVersion")
         classpath("com.github.dcendents:android-maven-gradle-plugin:2.0")
+//        classpath("com.github.jengelman.gradle.plugins:shadow:5.2.0")
     }
 }
 
@@ -48,6 +53,9 @@ allprojects {
         }
         maven {
             url = uri("https://dl.bintray.com/rikkaw/Libraries")
+        }
+        maven {
+            url = uri("https://plugins.gradle.org/m2/")
         }
     }
 }
